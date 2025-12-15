@@ -12,17 +12,22 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-
-export const metadata = {
-  title: 'OfferKhoj – আপনার শহরের সেরা অফার এক জায়গায়',
+export const metadata: Metadata = {
+  title: "OfferKhoj – আপনার শহরের সেরা অফার এক জায়গায়",
   description:
-    'Restaurant, cosmetics ও electronics এর সেরা discount দেখুন OfferKhoj এ। আপনার এলাকার আজকের সেরা অফার এখনই খুঁজুন।',
-};'939s8ZFBD29BQHROpw4f-h_DkP8Da6Jc1P8pjidoswE'
+    "Restaurant, cosmetics ও electronics এর সেরা discount দেখুন OfferKhoj এ। আপনার এলাকার আজকের সেরা অফার এখনই খুঁজুন।",
+
+  // ✅ Google Search Console verification (IMPORTANT)
+  verification: {
+    google: "939s8ZFBD29BQHROpw4f-h_DkP8Da6Jc1P8pjidoswE",
+  },
+};
+
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
       <body
