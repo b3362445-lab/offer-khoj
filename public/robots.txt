@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://offer-khoj-ofxe.vercel.app/sitemap.xml
